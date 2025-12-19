@@ -194,7 +194,7 @@ void DeleteAtPos(PPNODE first, int pos)
         DeleteLast(first);
     }
     else
-    {
+    { 
         temp = *first;
 
         for(iCnt = 1; iCnt < pos-1; iCnt++)
